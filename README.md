@@ -1,59 +1,59 @@
 ﻿# **FluentAPI**
 
-**APIs einfach. Sicher. Skalierbar.**  
-Willkommen bei **FluentAPI** – meinem Open-Source-Projekt, das API-Anbietern helfen soll, sich auf das Wesentliche zu konzentrieren: ihre Business-Logik. Sicherheit, Authentifizierung, Abrechnung und Monitoring? Darum kümmert sich FluentAPI.
+**APIs made simple. Secure. Scalable.**  
+Welcome to **FluentAPI** – my open-source project designed to help API providers focus on what really matters: their business logic. Security, authentication, billing, and monitoring? FluentAPI takes care of it.
 
-## 🚀 Was ist FluentAPI?
+## 🚀 What is FluentAPI?
 
-APIs sind heute das Rückgrat des Internets. Aber die Bereitstellung sicherer, skalierbarer APIs ist oft komplizierter als sie sein sollte. Mit **FluentAPI** möchte ich eine Infrastruktur schaffen, die diese Komplexität reduziert.
+APIs are the backbone of the modern web. But deploying secure, scalable APIs is often more complicated than it should be. With **FluentAPI**, I aim to create an infrastructure that simplifies this process.
 
-### Mein Ziel:
-- Eine Plattform, die API-Anbietern die technischen Hürden abnimmt.
-- Ein System, das sich leicht einrichten, erweitern und skalieren lässt.
-- Eine Lösung, die komplett auf **Open Source** basiert und containerisiert ist.
-
----
-
-## 🌱 Der aktuelle Stand
-
-FluentAPI ist noch am Anfang. Das Grundgerüst entsteht gerade, und es gibt noch viel zu tun. Ich arbeite daran, eine solide Basis zu schaffen, die später einfach erweitert werden kann. Wenn du Interesse hast, mitzumachen oder Feedback zu geben, bist du herzlich willkommen!
+### My Goal:
+- Build a platform that removes technical hurdles for API providers.
+- Create a system that is easy to set up, extend, and scale.
+- Offer a solution that is fully **open-source** and containerized.
 
 ---
 
-## 🔭 Die Vision
+## 🌱 Current Status
 
-Ich möchte mit FluentAPI eine **modulare, containerisierte API-Infrastruktur** entwickeln, die Folgendes bietet:
+FluentAPI is in its early stages. The foundation is currently being built, and there's still a lot to do. I'm working on establishing a solid base that can be easily extended in the future. If you're interested in contributing or providing feedback, you're more than welcome!
 
-- **🔐 Sicherheit & Authentifizierung**  
-  Integrierte Lösungen wie **Keycloak** für OAuth2/OpenID Connect.
+---
+
+## 🔭 The Vision
+
+With FluentAPI, I aim to develop a **modular, containerized API infrastructure** that offers:
+
+- **🔐 Security & Authentication**  
+  Integrated solutions like **Keycloak** for OAuth2/OpenID Connect.
 
 - **📊 Monitoring & Logging**  
-  Nahtlose Integration von **Prometheus** und **Grafana** für ein übersichtliches Monitoring.
+  Seamless integration with **Prometheus** and **Grafana** for clean and efficient monitoring.
 
-- **⚙️ Einfaches API-Routing**  
-  Konfigurierbare Routen über eine **Web-UI**, während ein Reverse Proxy (z.B. **YARP**) im Hintergrund arbeitet.
+- **⚙️ Easy API Routing**  
+  Configure routes through an intuitive **web UI**, while a reverse proxy (e.g., **YARP**) handles the traffic under the hood.
 
-- **💼 Abrechnung & Nutzungskontrolle**  
-  Automatisierte Tracking- und Abrechnungsfunktionen für API-Nutzer.
-
----
-
-## 🔧 Technologien, die ich verwenden werde
-
-- **ASP.NET Core** – für die zentrale API-Logik.
-- **YARP** – Reverse Proxy für flexibles und sicheres Routing.
-- **Keycloak** – Authentifizierung und Rechtemanagement.
-- **Prometheus & Grafana** – für Monitoring und Visualisierung.
-- **Docker** – für einfache Containerisierung und Deployment.
+- **💼 Billing & Usage Tracking**  
+  Automated tracking and billing features for API users.
 
 ---
 
-## 🤝 Mitmachen?
+## 🔧 Technologies I’ll Be Using
 
-Das Projekt steckt noch in den Kinderschuhen, aber ich freue mich über **Feedback**, **Ideen** oder **Contributions**. Wenn du Interesse hast, das Projekt zu unterstützen oder einfach neugierig bist, wie sich FluentAPI entwickelt, dann schau regelmäßig vorbei!
+- **ASP.NET Core** – for the core API logic.
+- **YARP** – reverse proxy for flexible and secure routing.
+- **Keycloak** – for authentication and access management.
+- **Prometheus & Grafana** – for monitoring and visualization.
+- **Docker** – for easy containerization and deployment.
 
 ---
 
-## 📜 Lizenz
+## 🤝 Want to Contribute?
 
-Dieses Projekt steht unter der **MIT-Lizenz**.
+This project is still in its infancy, but I'm open to **feedback**, **ideas**, or **contributions**. If you're interested in supporting the project or just curious about how FluentAPI evolves, feel free to check in regularly!
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License**.
