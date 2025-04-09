@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentAPI.SharedKernel", "F
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentAPI.Application", "FluentAPI.Application\FluentAPI.Application.csproj", "{39F5764D-0617-4057-A84F-AC9583783A89}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentAPI.Infrastructure", "FluentAPI.Infrastructure\FluentAPI.Infrastructure.csproj", "{505B08EB-A49A-4F21-93FB-7262554CC135}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -53,6 +55,10 @@ Global
 		{39F5764D-0617-4057-A84F-AC9583783A89}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{39F5764D-0617-4057-A84F-AC9583783A89}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{39F5764D-0617-4057-A84F-AC9583783A89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{505B08EB-A49A-4F21-93FB-7262554CC135}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{505B08EB-A49A-4F21-93FB-7262554CC135}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{505B08EB-A49A-4F21-93FB-7262554CC135}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{505B08EB-A49A-4F21-93FB-7262554CC135}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
