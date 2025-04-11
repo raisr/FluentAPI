@@ -27,12 +27,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentAPI.Infrastructure", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{2D1060D5-0BE8-4A8F-8EB5-329D73684B72}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "_build", "..\build\_build.csproj", "{87EDE707-1735-4787-86E2-685D779CBD83}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{87EDE707-1735-4787-86E2-685D779CBD83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87EDE707-1735-4787-86E2-685D779CBD83}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8A5C0869-332E-2DCC-68F4-A08BCBDEB659}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8A5C0869-332E-2DCC-68F4-A08BCBDEB659}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8A5C0869-332E-2DCC-68F4-A08BCBDEB659}.Release|Any CPU.ActiveCfg = Release|Any CPU
