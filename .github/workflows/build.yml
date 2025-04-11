@@ -1,0 +1,26 @@
+name: CI Build
+
+on:
+  push:
+    branches:
+      - '**'  # Alle Branches
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0.x'
+
+      - name: Restore global tools
+        run: dotnet tool restore
+
+      - name: Run Nuke Build
+        run: ./build.sh --target Compile
