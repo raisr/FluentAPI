@@ -16,6 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\Demo\FluentApi.DemoApi\FluentApi.DemoApi.csproj" />
     <ProjectReference Include="..\..\FluentAPI.Web.UI\FluentAPI.Web.UI.csproj" />
   </ItemGroup>
 
