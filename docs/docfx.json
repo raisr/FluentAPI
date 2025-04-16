@@ -27,7 +27,9 @@
       "_appName": "FluentAPI Documentation",
       "_appTitle": "FluentAPI Documentation",
       "_enableSearch": true,
-      "pdf": true
+      "pdf": true,
+      "_disableToc": false,
+      "_disableNavbar": false
     }
   }
 }
