@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\FluentAPI.Domain\FluentAPI.Domain.csproj" />
+    <ProjectReference Include="..\FluentAPI.SharedKernel\FluentAPI.SharedKernel.csproj" />
+  </ItemGroup>
+
 </Project>
