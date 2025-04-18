@@ -1,4 +1,5 @@
 using FluentAPI.Web.UI.Components;
+using MudBlazor.Services;
 
 namespace FluentAPI.Web.UI;
 
@@ -15,6 +16,8 @@ public class Program
         // Add services to the container.
         builder.Services.AddRazorComponents()
             .AddInteractiveServerComponents();
+
+        builder.Services.AddMudServices();
 
         var app = builder.Build();
 
